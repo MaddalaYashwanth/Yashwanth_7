@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mock1_team</title>
+    <title>Mock_1</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .container{
@@ -30,13 +30,15 @@
             width:170px;
             height:auto;
         }
+        .container3{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+        }
         .test6,{
             border:1px solid black;
             display:flex;
             gap:20px;
-            /* align-content:center;
-            align-items:center;
-            text-align:center; */
         }
         .test2{
             border:1px solid white;
@@ -47,6 +49,28 @@
             border:1px solid white;
             border-radius: 40px;
             background-color: dimgrey;
+        }
+        .container4{
+            display: flex;
+            border: 1px solid black;
+            padding:20px;
+            gap:40px;
+            width:1000px;
+        }
+        .inner1{
+            border:1px solid white;
+        }
+        .inner2{
+            border:1px solid white;
+            
+        }
+        .cont1{
+            border:1px solid black;
+            width:1100px;
+            padding:20px;
+        }
+        .cont3{
+            background-image: url(./The_City_London-scaled\(3\).jpg)
         }
     </style>
 </head>
@@ -88,13 +112,11 @@
     <hr>
     <h1 style="color: blue;text-align: center;">CALCULATOR</h1>
     
-   <div class="container2">
-    <div class="container2">
-        <div class="test2">
+   <div class="container3">
+        <div class="container2">
+            <div class="test2">
             <span style="color: white;">112</span>
-        </div>
-        <div>
-            
+            </div>
             <table>
                 <tr>
                    <td style="color: white;border:1px solid white;border-radius: 10px;background-color: dimgrey;text-align: center;">AC</td>
@@ -139,11 +161,91 @@
             </table>
             <div class="test6" style="display: flex;gap:15px">
                 <div class="ele" style="visibility: hidden;">.</div>
-                <div class="ele">.&nbsp</div>
-                <div class="ele">0</div>
-                <div class="ele">=</div>
+                <div class="ele" style="border-radius: 300px;height: 18px;text-align: center;">.&nbsp</div>
+                <div class="ele" style="border-radius: 300px;height: 18px;text-align: center;">0</div>
+                <div class="ele" style="border-radius: 400px;height: 18px;text-align: center;">=</div>
             </div> 
-        </div> 
-   </div> 
+        </div>
+    </div>
+    <br>
+    <hr>
+    <h1 style="color: darkred;">Template3</h1>
+    <div class="container4">
+        <div class="inner1">
+            <div style="background-color: green;border:1px solid green;height:1.5px"></div>
+            <i class="fa fa-map-marker" style="background-color: green;"></i>Location <br>
+            <i>A108 Adam Street, New York, NY 535022</i> <br> <br>
+            <i class="fa fa-envelope" style="background-color: green;"></i>Email <br>
+            <i>info@example.com</i> <br> <br>
+            <i class="fa fa-phone" style="background-color: green;"></i>Call <br>
+            <i>+1 558955488 55s</i> <br> <br>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1oZxYAd0XPUGehRmQeuyu3cNKrNU&hl=en&ehbc=2E312F" width="340" height="380"></iframe>
+        </div>
+        <div class="inner2" style="width:600px">
+            <div style="background-color: green;border:1px solid green;height:1.5px"></div>
+            <form>
+                <div style="display: flex;">
+                <div>
+                <label>Your Name</label> <br>
+                <input type="text" />  &nbsp &nbsp
+                </div>
+                <div>
+                <label>Your Email</label> <br>
+                <input type="text" /> <br> <br>
+                </div>
+                </div> <br> <br>
+                <label>subject</label>
+                <input type="text" /> <br> <br> <br>
+                <label>Message</label> <br>
+                <textarea placeholder="Some text...." height="50px;"></textarea>
+            </form>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <h1 style="color: blue;">Template_4</h1>
+    <div class="cont1">
+        <div style="display: flex;gap:643px;">
+            <div>&nbsp&nbsp&nbsp&nbsp <i class="fa fa-envelope">info@example.com &nbsp<i class="fa fa-mobile"></i>+1 5589 55488 55</i></div>
+            <div><i class="fa fa-twitter"></i>&nbsp&nbsp<i class="fa fa-facebook"></i>&nbsp&nbsp<i class="fa fa-instagram"></i>&nbsp&nbsp<i class="fa fa-linkedin"></i></div>
+        </div>
+        <br>
+        <div class="cont2" style="display: flex;gap: 300px;" >
+            <div>
+            <div class="elem" style="color: green;;">GREEN</div>
+            </div>
+            <div style="display: flex;gap:10px;">
+            <div class="elem">HOME</div>
+            <div class="elem">ABOUT</div>
+            <div class="elem">SERVICES</div>
+            <div class="elem">PORTFOLIO</div>
+            <div class="elem">TEAM</div>
+            <div class="elem">DROPDOWN</div>
+            <div class="elem">CONTACT</div>
+            <div class="elem" style="border: 1px solid green;color: green;">GET STARTED</div>
+            </div>
+        </div>
+        <div class="cont3" style="text-align: center;">
+            <p style="text-align: center;">Lorem Ipsum Dolor</p><p style="text-align: center;">sit amet consectetur adipisicing elit. Modi voluptate excepturi quis minus sequi, consectetur eum quidem suscipit </p><p style="text-align: center;">voluptas esse sunt hic numquam non ex cum? Provident distinctio dolorum tempore!</p>
+            <button style="background-color: green;"><span style="color: white;">Read More</span></button>
+        </div>
+        <div class="cont4" style="display: flex;gap:40px;background-color:blanchedalmond;">
+            <div class="elem2">
+                <div><i class="fa fa-laptop" style="color: darkgreen;font-size: x-large;"></i></div> <br>
+                <div>Lorem Ipsum</div> <br>
+                <div>Voluptatum deleniti atque Corrupti quos dolores</div>
+            </div>
+            <div class="elem2">
+                <div><i class="fa fa-briefcase" style="color: darkgreen;font-size: x-large;"></i></div> <br>
+                <div>Dolor Sitema</div> <br>
+                <div>Minim veniam, quis nostrud exercitation</div>
+            </div>
+            <div class="elem2">
+                <div><i class="fa fa-calendar" style="color: darkgreen;font-size: x-large;"></i></div> <br>
+                <div>Sed ut perspiciatis</div> <br>
+                <div>Duis aute irure dolor in reprehenderit in</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
